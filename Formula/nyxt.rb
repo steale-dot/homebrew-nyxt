@@ -1,9 +1,9 @@
 class Nyxt < Formula
-    version "2.0.0"
+  version "3.9.1"
     desc "Nyxt - the internet on your terms."
     homepage "https://nyxt.atlas.engineer"
     # Use a git checkout because the build script checks out submodules
-    url "https://github.com/atlas-engineer/nyxt.git", using: :git, tag: '2.0.0'
+    url "https://github.com/atlas-engineer/nyxt.git", using: :git, tag: '3.9.1'
     license "BSD-3-Clause"
   
     depends_on "sbcl" => :build

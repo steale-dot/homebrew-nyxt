@@ -1,8 +1,8 @@
 class Webkitgtk < Formula
   desc "Full-featured Gtk+ port of the WebKit rendering engine"
   homepage "http://webkitgtk.org"
-  url "http://webkitgtk.org/releases/webkitgtk-2.32.1.tar.xz"
-  sha256 "136117317f70f66486f71b8edf5e46f8776403c5d8a296e914b11a36ef836917"
+  url "http://webkitgtk.org/releases/webkitgtk-2.42.1.tar.xz"
+  sha256 "6f41fac9989d3ee51c08c48de1d439cdeddecbc757e34b6180987d99b16d2499"
 
   depends_on "cmake" => :build
   depends_on "ninja" => :build
